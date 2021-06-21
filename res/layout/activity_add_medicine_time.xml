@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddMedicineDateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_addmeditime_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorWhite"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/ib_addmeditime_backbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_back_btn" />
+
+                <TextView
+                    style="@style/style_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="알림 정보 등록" />
+
+                <TextView
+                    android:id="@+id/tv_addmeditime_addbtn"
+                    style="@style/style_small_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:text="추가"
+                    android:textColor="@color/colorBlue" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_addmeditime_name"
+                style="@style/style_small_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="약품 이름을 설정해주세요" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_above="@id/ll_addmeditime_footer"
+            android:layout_below="@id/ll_addmeditime_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_addmeditime_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <LinearLayout
+                android:id="@+id/ll_addmeditime_no_element_view"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_meditime"
+                    android:backgroundTint="@color/colorGrayDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    style="@style/style_small_title_text"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/colorGrayDark"
+                    android:gravity="center"
+                    android:text="알람 정보를\n추가해주세요"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_addmeditime_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_addmeditime_ok"
+                style="@style/style_bold_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="완료" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

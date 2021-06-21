@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_header"
+        style="@style/style_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="특정요일" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_sun"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="일" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_mon"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="월" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_tue"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="화" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_wed"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="수" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_thu"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="목" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_fri"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="금" />
+
+    <TextView
+        android:id="@+id/tv_cyclepickdlg_dow_sat"
+        style="@style/style_regular_button_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="토" />
+
+    <Button
+        android:id="@+id/btn_cyclepickdlg_dow_ok"
+        style="@style/style_bold_button_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="완료" />
+</LinearLayout>
