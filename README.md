@@ -1,15 +1,9 @@
 ## TeamProject_Android_MediNoticeApplication
-약 알림 어플리케이션 '약Time'을 전계원씨, 정현재씨와 함께 팀 프로젝트로 개발하였습니다.
+약 알림 어플리케이션 '약Time'을 전계원씨, 정현재, 김민혁씨와 함께 팀 프로젝트로 개발하였습니다.
+
 
 https://github.com/JeonK1/MediTime
 (원 깃허브 작업 주소)
-
-아이디어 기획 및 개발 역할을 맡았고 현재 1차적으로 개발이 완료되었습니다.
-
-전계원씨, 정현재씨와의 프로젝트 수행기간은 종료되었습니다.(hci 팀프로젝트 수업 종료)
-
-지금은 이 App을 졸업프로젝트로서 팀원을 모아 추가적으로 개선하고 살을 붙여가고 있습니다. (MediTime_Ver2로 작업중)
-
 
 ## 프로젝트 개요
 
@@ -63,8 +57,8 @@ https://github.com/JeonK1/MediTime
 
 
 
-## 추가 계획
+## 시연 영상
+https://www.youtube.com/watch?v=MBzm5ckyM_g
 
-앞으로는 여러 약품들의 부작용에 대해서 사용자들에게 제공할 수 있도록 할 것입니다.
 
 
