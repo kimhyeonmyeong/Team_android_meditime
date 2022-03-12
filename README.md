@@ -36,7 +36,9 @@
 
 ![image](https://user-images.githubusercontent.com/44837403/147023884-0fd1bd9b-1ead-446d-a668-50d7de2059d0.png)
 
+### 시연영상      
 
+https://studio.youtube.com/video/ZGEzu6e1R4s/edit
 
 ### Specification
 
