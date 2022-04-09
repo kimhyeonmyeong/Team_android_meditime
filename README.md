@@ -38,7 +38,7 @@
 
 ### 시연영상      
 
-https://studio.youtube.com/video/ZGEzu6e1R4s/edit
+https://www.youtube.com/watch?v=UH4HDjRiYaw
 
 ### Specification
 
