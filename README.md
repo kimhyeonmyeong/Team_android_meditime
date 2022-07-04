@@ -28,11 +28,7 @@
 
 2021 - 03 - 02 ~ 06-02
 
-### UI 흐름도 
-
-![image](https://user-images.githubusercontent.com/44837403/147023934-10f192f8-bd34-4467-be39-bb1fb98500df.png)
-
-### 최종 UI
+### 프로그램 동작
 
 ![image](https://user-images.githubusercontent.com/44837403/147023884-0fd1bd9b-1ead-446d-a668-50d7de2059d0.png)
 
