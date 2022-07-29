@@ -46,7 +46,7 @@ Android Studio 4.2.1
 
 ### View
 
-![image](https://user-images.githubusercontent.com/44837403/181684060-21f3d49e-b3a5-4481-b1e9-81c3a26231ed.png)
+![image](https://user-images.githubusercontent.com/44837403/181684109-d73895a5-7325-428c-b086-0926ce9923ff.png)
 
 
 ### Acting Video
