@@ -1,15 +1,19 @@
 ## TeamProject_Android_MediNoticeApplication
-약 알림 어플리케이션 '약Time'을 전계원씨, 정현재, 김민혁씨와 함께 팀 프로젝트로 개발하였습니다.
+약 알림 어플리케이션 '약Time'
+
+### 프로젝트
+
+약이나 영양제 복용에 있어서 적절한 복용횟수와 시간을 고려해 약알람을 설정하고 안내받는 앱 
+약 또는 영양제의 일정 시간, 주기, 복용횟수에 맞게 약알람을 추가하는 기능을 제공합니다.        
+약 알람이 오면 '먹었어', '안 먹었어'와 같이 음성을 통해 알람을 확인할 수 있습니다.  
+이를 통해 편리하게 앱을 사용하고 약 복용 사실을 기억하는데에 도움을 주고자 했습니다.      
+
+### 진행기간
+
+2021 - 03 - 02 ~ 06-02
 
 
-### 프로젝트 개요
-
-약이나 영양제 복용에 있어서 적절한 복용횟수와 시간을 고려해 약알람을 설정하고 안내받는 앱을 만들고자 하였습니다.    
-이를 위해 약 또는 영양제의 일정 시간, 주기, 복용횟수에 맞게 약알람을 추가하는 기능을 제공합니다.        
-또 약 알람이 오면 '먹었어', '안 먹었어'와 같이 음성을 통해 알람을 확인할 수 있습니다.
-이를 통해 편리하게 앱을 사용하고 약 복용 사실을 기억하는데에 도움을 주고자 했습니다.     
-
-### 프로젝트 기능
+### 기능
 
 - 음성인식 기반의 약알람 어플리케이션
 
@@ -23,20 +27,7 @@
 
 - 복용 일지별 세부 확인 기능
 
-
-### 진행기간
-
-2021 - 03 - 02 ~ 06-02
-
-### 프로그램 동작
-
-![image](https://user-images.githubusercontent.com/44837403/147023884-0fd1bd9b-1ead-446d-a668-50d7de2059d0.png)
-
-### 시연영상      
-
-https://www.youtube.com/watch?v=UH4HDjRiYaw
-
-### Specification
+### Skill Specification
 
 - Android Kotlin
 - Kakao Newtone 을 활용한 STT
@@ -53,4 +44,11 @@ Gradle Version: 6.5
 JDK version: jdk_1_8    
 Android Studio 4.2.1    
 
+### View
 
+![image](https://user-images.githubusercontent.com/44837403/181684060-21f3d49e-b3a5-4481-b1e9-81c3a26231ed.png)
+
+
+### Acting Video
+
+https://www.youtube.com/watch?v=UH4HDjRiYaw
